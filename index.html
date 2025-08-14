@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WRD - شركة الاستيراد والتصدير</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>WRD</h1>
+                <span>للاستيراد والتصدير</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#" onclick="toggleLanguage()">EN</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>جسر التجارة بين الصين وسوريا</h2>
+                <p>نقدم خدمات استيراد وتصدير موثوقة وسريعة مع أفضل الأسعار</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">خدماتنا</a>
+                    <a href="#contact" class="btn btn-secondary">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3>الاستيراد من الصين</h3>
+                    <p>نستورد جميع أنواع البضائع من الصين بأفضل الأسعار وأعلى جودة</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚢</div>
+                    <h3>الشحن البحري والجوي</h3>
+                    <p>نوفر خدمات شحن سريعة وآمنة عبر البحر والجو</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>التخليص الجمركي</h3>
+                    <p>نتولى جميع إجراءات التخليص الجمركي بسرعة وكفاءة</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤝</div>
+                    <h3>الوساطة التجارية</h3>
+                    <p>نربطك بأفضل الموردين والمصنعين في الصين</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h3>التصنيع حسب الطلب</h3>
+                    <p>نساعدك في تصنيع منتجاتك الخاصة في المصانع الصينية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>حلول الدفع</h3>
+                    <p>نوفر حلول دفع آمنة ومرنة تناسب احتياجاتك</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>شركة WRD هي شركة رائدة في مجال الاستيراد والتصدير بين الصين وسوريا. نمتلك خبرة واسعة في السوق الصيني ونقدم خدمات متكاملة تشمل الاستيراد والشحن والتخليص الجمركي.</p>
+                    <p>نحن نؤمن بأهمية بناء جسور تجارية قوية بين البلدين، ونسعى دائماً لتقديم أفضل الخدمات لعملائنا بأسعار منافسة وجودة عالية.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>عميل راضٍ</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1000+</h3>
+                            <p>صفقة ناجحة</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>سنوات خبرة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Categories -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">أبرز المنتجات التي نستوردها</h2>
+            <div class="products-grid">
+                <div class="product-category">الإلكترونيات</div>
+                <div class="product-category">الملابس والنسيج</div>
+                <div class="product-category">مواد البناء</div>
+                <div class="product-category">قطع غيار السيارات</div>
+                <div class="product-category">الأجهزة المنزلية</div>
+                <div class="product-category">المعدات الصناعية</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📍 العنوان</h3>
+                        <p>دمشق، سوريا</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📧 البريد الإلكتروني</h3>
+                        <p>info@wrd-trading.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📱 الهاتف</h3>
+                        <p dir="ltr">+963 XX XXX XXXX</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>🕐 ساعات العمل</h3>
+                        <p>السبت - الخميس: 9:00 - 18:00</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="الاسم الكامل" required>
+                    <input type="email" placeholder="البريد الإلكتروني" required>
+                    <input type="tel" placeholder="رقم الهاتف">
+                    <select>
+                        <option value="">اختر نوع الخدمة</option>
+                        <option value="import">استيراد</option>
+                        <option value="export">تصدير</option>
+                        <option value="shipping">شحن</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                    <textarea placeholder="رسالتك" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>WRD</h3>
+                    <p>جسر التجارة بين الصين وسوريا</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>تابعنا</h4>
+                    <div class="social-links">
+                        <a href="#">📘</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                        <a href="#">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WRD للاستيراد والتصدير. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
